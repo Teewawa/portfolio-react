@@ -10,6 +10,9 @@ function App() {
         <h2>Front End Developer originally from Guam</h2>
       </header>
       <Portfolio />
+      <footer>
+        <p>This is the footer section</p>
+      </footer>
     </div>
   );
 }
