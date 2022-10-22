@@ -1,21 +1,15 @@
 import "./css/App.css";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h2>Hello World I'm</h2>
+        <h1>Tiara Mendiola</h1>
+        <h2>Front End Developer originally from Guam</h2>
       </header>
+      <Portfolio />
     </div>
   );
 }
