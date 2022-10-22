@@ -4,7 +4,7 @@ import "../css/Portfolio.css";
 export default function Portfolio() {
   return (
     <div className="Portfolio">
-      <h3>hello from portfolio</h3>
+      <h3>Feature top three projects</h3>
     </div>
   );
 }
