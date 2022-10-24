@@ -1,4 +1,21 @@
 .Portfolio {
-  background-color: bisque;
+  background-color: rgb(191, 175, 160);
   padding: 10px;
+}
+
+.Portfolio h3 {
+  color: rgb(38, 25, 17);
+  color: rgb(249, 243, 227);
+  font-size: 32px;
+  margin-bottom: 0;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 4px;
+}
+
+.Portfolio p {
+  color: rgb(102, 74, 50);
+  font-size: 18px;
+  font-family: "Quattrocento Sans", sans-serif;
+  letter-spacing: 3px;
 }
