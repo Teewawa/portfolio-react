@@ -5,8 +5,28 @@
 }
 
 .App header {
-  background-color: #282c34;
-  color: white;
+  background-color: rgb(249, 243, 227);
+  color: rgb(38, 25, 17);
   margin: 0;
   padding: 100px;
+}
+
+.App h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.App h2 {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 36px;
+  color: rgb(102, 74, 50);
+  color: rgb(191, 175, 160);
+  letter-spacing: 4px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
 }
