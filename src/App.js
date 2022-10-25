@@ -10,7 +10,9 @@ function App() {
       </header>
       <Portfolio />
       <footer>
-        <p>This is the footer section</p>
+        <section>this is about the page</section>
+        <section>this is anchor links to sections</section>
+        <section>this is contact information and socials</section>
       </footer>
     </div>
   );
