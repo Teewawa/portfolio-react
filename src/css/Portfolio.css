@@ -25,6 +25,17 @@
 }
 
 .Portfolio img {
-  width: 800px;
+  width: 100%;
+  aspect-ratio: 16/9;
   border-radius: 3px;
+}
+
+.Portfolio .grid {
+  display: grid;
+  column-gap: 40px;
+  padding: 40px;
+}
+
+.Portfolio .grid-2col {
+  grid-template-columns: 1fr 1fr;
 }
