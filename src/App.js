@@ -5,8 +5,13 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>TIARA MENDIOLA</h1>
         <h2>front end developer</h2>
+        <h1>tiara mendiola</h1>
+        <span className="nav">
+          <a href="#featured">FEATURED</a> |{" "}
+          <a href="#certificates">CERTIFICATES</a> |{" "}
+          <a href="#experience">EXPERIENCE</a> | <a href="#contact">CONTACT</a>
+        </span>
       </header>
       <Portfolio />
       <footer>
