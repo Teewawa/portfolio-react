@@ -5,28 +5,48 @@
 }
 
 .App header {
+  max-width: 1400px;
+  margin: 0 auto;
   background-color: rgb(249, 243, 227);
-  color: rgb(38, 25, 17);
-  margin: 0;
-  padding: 100px;
+  padding: 200px 10px;
 }
 
 .App h1 {
+  color: rgb(38, 25, 17);
   font-family: "Oswald", sans-serif;
   font-size: 95px;
   font-weight: 700;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   padding: 0;
   margin: 0;
+  line-height: 1;
 }
 
 .App h2 {
   font-family: "Quattrocento Sans", sans-serif;
-  font-size: 55px;
+  font-size: 45px;
   color: rgb(102, 74, 50);
   color: rgb(191, 175, 160);
-  letter-spacing: 4px;
-  line-height: 1.5;
+  letter-spacing: 5px;
+  line-height: 1;
   padding: 0;
   margin: 0;
+}
+
+.App .nav {
+  color: rgb(191, 175, 160);
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: 3;
+}
+
+.App .nav a {
+  color: rgb(191, 175, 160);
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(38, 25, 17);
 }
