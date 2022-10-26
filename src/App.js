@@ -14,7 +14,7 @@ function App() {
         </span>
       </header>
       <Portfolio />
-      <footer>
+      <footer id="contact">
         <section>this is about the page</section>
         <section>this is anchor links to sections</section>
         <section>this is contact information and socials</section>
