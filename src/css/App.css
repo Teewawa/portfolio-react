@@ -38,13 +38,19 @@
   font-family: "Quattrocento Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   line-height: 3;
 }
 
 .App .nav a {
   color: rgb(191, 175, 160);
   text-decoration: none;
+  text-transform: lowercase;
+}
+
+.App .nav a:hover {
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 footer {
