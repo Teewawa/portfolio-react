@@ -25,7 +25,6 @@
 
 .Certificates a img {
   opacity: 1;
-  -webkit-transition: 0.3s ease-in-out;
   transform: 0.3s ease-in-out;
 }
 .Certificates a img:hover {
