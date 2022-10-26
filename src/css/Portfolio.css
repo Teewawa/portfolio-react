@@ -1,41 +1,11 @@
 .Portfolio {
+  max-width: 1400px;
+  margin: 0 auto;
   background-color: rgb(191, 175, 160);
   padding: 10px;
 }
 
-.Portfolio h3,
-.Portfolio h4 {
-  color: rgb(38, 25, 17);
-  color: rgb(249, 243, 227);
-  font-size: 45px;
-  margin-bottom: 0;
-  font-family: "Quattrocento Sans", sans-serif;
-  font-family: "Oswald", sans-serif;
-  letter-spacing: 4px;
-}
-
-.Portfolio p {
-  color: rgb(102, 74, 50);
-  font-size: 20px;
-  font-weight: 600;
-  font-family: "Quattrocento Sans", sans-serif;
-  letter-spacing: 3px;
-  line-height: 1.5;
-  margin-top: 0;
-}
-
-.Portfolio img {
-  width: 100%;
-  aspect-ratio: 16/9;
-  border-radius: 3px;
-}
-
-.Portfolio .grid {
-  display: grid;
-  column-gap: 40px;
-  padding: 40px;
-}
-
-.Portfolio .grid-2col {
-  grid-template-columns: 1fr 1fr;
+section {
+  max-width: 100% !important;
+  margin: 0 auto !important;
 }

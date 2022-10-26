@@ -1,5 +1,39 @@
+.Featured h3 {
+  color: rgb(38, 25, 17);
+  font-family: "Oswald", sans-serif;
+  font-size: 45px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+.Featured h4 {
+  color: rgb(249, 243, 227);
+  font-family: "Oswald", sans-serif;
+  font-size: 45px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.Featured p {
+  color: rgb(102, 74, 50);
+  font-size: 20px;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
 .Featured img {
   width: 100%;
+  margin: 0;
+  padding: 0;
   aspect-ratio: 16/9;
   border-radius: 3px;
 }
@@ -7,10 +41,16 @@
 .Featured .grid {
   display: grid;
   column-gap: 40px;
-  padding: 40px;
+  padding: 0 40px;
+  margin: 0;
 }
 
 .Featured .grid-2col {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   aspect-ratio: 16/9;
+  margin: 0 !important;
+}
+
+section {
+  margin-bottom: 0 !important;
 }

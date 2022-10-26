@@ -1,18 +1,39 @@
+.Certificates {
+  background-color: rgb(191, 175, 160);
+}
+
+.Certificates h3 {
+  color: rgb(38, 25, 17);
+  color: rgb(249, 243, 227);
+  font-size: 45px;
+  margin: 0;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 4px;
+}
+
+.Certificates .main-display {
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+}
 .Certificates .certificate-lg {
-  aspect-ratio: 16/9;
-  max-width: 700px;
+  width: 100%;
+  aspect-ratio: 4/3;
+  width: 500px;
 }
 .Certificates .grid {
   display: grid;
-  column-gap: 10px;
+  column-gap: 30px;
 }
 
 .Certificates .grid-certificate-sm {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 20px 60px;
 }
 
 .Certificates img {
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 4/3;
   border-radius: 3px;
 }
