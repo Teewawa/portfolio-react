@@ -1,3 +1,6 @@
+.Featured {
+  margin: 60px 0;
+}
 .Featured h3 {
   color: rgb(38, 25, 17);
   font-family: "Oswald", sans-serif;
@@ -30,27 +33,21 @@
   padding: 0;
 }
 
-.Featured img {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  aspect-ratio: 16/9;
-  border-radius: 3px;
-}
-
 .Featured .grid {
   display: grid;
-  column-gap: 40px;
-  padding: 0 40px;
-  margin: 0;
+  column-gap: 30px;
+  padding: 0px 40px;
 }
 
 .Featured .grid-2col {
   grid-template-columns: repeat(2, 1fr);
-  aspect-ratio: 16/9;
-  margin: 0 !important;
 }
 
-section {
-  margin-bottom: 0 !important;
+.Featured .featured-project {
+  max-width: 100%;
+}
+.Featured img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 3px;
 }
