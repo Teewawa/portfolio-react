@@ -61,7 +61,9 @@ export default function Certificates() {
       className="Certificates"
       id="certificates"
     >
-      <h3>Certificates</h3>
+      <h3>CERTIFICATES</h3>
+      <h2>front end development</h2>
+
       <section className="main-display">
         <a
           href={srcLink}
