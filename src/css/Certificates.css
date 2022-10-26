@@ -1,0 +1,18 @@
+.Certificates .certificate-lg {
+  aspect-ratio: 16/9;
+  max-width: 700px;
+}
+.Certificates .grid {
+  display: grid;
+  column-gap: 10px;
+}
+
+.Certificates .grid-certificate-sm {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Certificates img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 3px;
+}
