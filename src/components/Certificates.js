@@ -104,6 +104,11 @@ export default function Certificates() {
       >
         View SheCodes profile
       </a>
+      <section>
+        <h3>University of Guam</h3>{" "}
+        <h2>Bachelors of Science in Computer Science</h2>
+        <br />
+      </section>
     </div>
   );
 }
