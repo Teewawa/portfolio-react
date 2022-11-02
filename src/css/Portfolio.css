@@ -2,10 +2,9 @@
   max-width: 1400px;
   margin: 0 auto;
   background-color: rgb(191, 175, 160);
-  padding: 10px;
 }
 
 section {
-  max-width: 100% !important;
-  margin: 0 auto !important;
+  max-width: 100%;
+  margin: 0 auto;
 }
