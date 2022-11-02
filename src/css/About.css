@@ -1,0 +1,97 @@
+.About {
+  background-color: rgb(191, 175, 160);
+  margin: 0 auto;
+  padding: 0;
+  /*position required for wave svg divider*/
+  position: relative;
+}
+
+.About .wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.About .wave svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 338px;
+}
+
+.About .wave .shape-fill {
+  fill: #f9f3e3;
+}
+
+.About section {
+  margin: 0 auto;
+  padding: 10px 70px;
+}
+
+.About .grid {
+  display: grid;
+  margin-top: 220px;
+  column-gap: 40px;
+}
+
+.About .grid-2col {
+  grid-template-columns: 2fr 1fr;
+}
+
+.About img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 3px;
+  margin-top: 40px;
+}
+
+.About h5 {
+  color: rgb(38, 25, 17);
+  color: rgb(102, 74, 50);
+  font-family: "Oswald", sans-serif;
+
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  padding: 0;
+}
+
+.About h6 {
+  color: rgb(249, 243, 227);
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  line-height: 2;
+  margin: 0;
+}
+
+.About p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 22px;
+  color: rgb(249, 243, 227);
+  color: rgb(102, 74, 50);
+  text-align: left;
+}
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .About .wave svg {
+    width: calc(150% + 1.3px);
+    height: 378px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .About .wave svg {
+    width: calc(117% + 1.3px);
+    height: 116px;
+  }
+}
