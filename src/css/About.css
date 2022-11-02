@@ -45,7 +45,7 @@
   width: 400px;
   max-width: 100%;
   border-radius: 3px;
-  margin-top: 30px;
+  margin-top: 20%;
 }
 
 .About h4 {
@@ -64,18 +64,20 @@
   font-family: "Oswald", sans-serif;
   font-size: 32px;
   padding: 0;
-  font-weight: 500;
-  letter-spacing: 3px;
+  font-weight: 600;
+  letter-spacing: 6px;
   line-height: 1.5;
   margin: 0;
 }
 .About h6 {
   color: rgb(249, 243, 227);
   color: rgb(102, 74, 50);
+  color: rgb(59, 39, 26);
   font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 2.5px;
   line-height: 1.5;
   margin: 0;
   text-transform: lowercase;
@@ -83,9 +85,9 @@
 
 .About p {
   font-family: "Oswald", sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1.5;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 22px;
   color: rgb(38, 25, 17);
   color: rgb(59, 39, 26);
