@@ -1,8 +1,8 @@
 import React from "react";
 import "../css/About.css";
 import gameOfTech from "../assets/TiaraMendiola-GameOfTech.jpg";
-import profilePicture from "../assets/TiaraMendiola-Profile-.jpg";
-import profileHoodie from "../assets/TiaraMendiola-Profile2.jpg";
+/*import profilePicture from "../assets/TiaraMendiola-Profile-.jpg";
+import profileHoodie from "../assets/TiaraMendiola-Profile2.jpg";*/
 
 export default function About() {
   return (
@@ -25,9 +25,9 @@ export default function About() {
 
       <section className="grid grid-2col">
         <div>
-          <h5>HELLO WORLD</h5>
-          <h6>I'M ON A SECRET MISSION</h6>
-          <h6>I CAN'T TELL YOU, BUT I DECIDED </h6>
+          <h4>hello world</h4>
+          <h5>I'M ON A MISSION</h5>
+          <h6>It's a secret, BUT I DECIDED </h6>
           <h6>TO TAKE THE SCENIC ROUTE</h6>
           <p>
             I grew up in the early 90s, meaning I saw & experienced the
