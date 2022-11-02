@@ -5,10 +5,7 @@ import travelGU from "../assets/travel-guam-mockup.jpg";
 
 export default function Featured() {
   return (
-    <div
-      className="Featured"
-      id="featured"
-    >
+    <div className="Featured">
       <section>
         <div className="wave">
           <svg
@@ -25,7 +22,10 @@ export default function Featured() {
         </div>
       </section>
 
-      <section className="featured-main">
+      <section
+        className="featured-main"
+        id="featured"
+      >
         <h3>FEATURED WORK</h3>
 
         <section className="grid grid-2col">
