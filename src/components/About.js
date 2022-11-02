@@ -26,9 +26,8 @@ export default function About() {
       <section className="grid grid-2col">
         <div>
           <h4>hello world</h4>
-          <h5>I'M ON A MISSION</h5>
-          <h6>It's a secret, BUT I DECIDED </h6>
-          <h6>TO TAKE THE SCENIC ROUTE</h6>
+          <h5>I'M ON A SECRET MISSION</h5>
+          <h6>but I decided to take the scenic route</h6>
           <p>
             I grew up in the early 90s, meaning I saw & experienced the
             evolution of today's technology. So it was only a matter of time
