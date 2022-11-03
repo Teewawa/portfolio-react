@@ -30,7 +30,6 @@
 .Gallery h4:hover {
   -webkit-text-fill-color: rgb(59, 39, 26);
   transform: translateY(-10px);
-  transition: background-image 2s;
 }
 
 .Gallery .featured-box .img-box {
