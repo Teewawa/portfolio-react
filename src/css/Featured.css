@@ -1,10 +1,9 @@
 .Featured {
-  height: 100%;
   background-color: rgb(249, 243, 227);
   background: radial-gradient(
     circle,
     rgba(249, 243, 227, 1) 0%,
-    rgb(190, 177, 165) 100%
+    rgb(190, 177, 165) 120%
   );
   margin: 0 auto;
   position: relative;
@@ -36,26 +35,33 @@
 }
 
 .Featured .featured-main {
-  margin-top: 220px;
+  margin-top: 200px;
 }
+
 .Featured h3 {
   color: rgb(102, 74, 50);
+  color: rgb(191, 175, 160);
+
   font-family: "Oswald", sans-serif;
-  font-size: 45px;
+  font-size: 70px;
+  font-weight: 700;
   line-height: 1.5;
-  letter-spacing: 2px;
+  letter-spacing: 9px;
   margin: 0;
   padding: 0;
+  margin-bottom: 20px;
 }
 
 .Featured h4 {
   color: rgb(191, 175, 160);
+  color: rgb(59, 39, 26);
   font-family: "Oswald", sans-serif;
   font-size: 45px;
   letter-spacing: 2px;
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  opacity: 0.8;
 }
 
 .Featured p {
@@ -68,6 +74,7 @@
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  opacity: 0.8;
 }
 
 .Featured .grid {
