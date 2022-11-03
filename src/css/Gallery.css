@@ -1,0 +1,55 @@
+.Gallery {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 600px;
+}
+
+.Gallery .featured-box {
+  height: 100vh;
+  padding: 10px 3%;
+  position: relative;
+  text-align: left;
+}
+
+.Gallery a {
+  color: rgb(59, 39, 26);
+  text-decoration: none;
+}
+
+.Gallery h4 {
+  font-size: 70px;
+  position: relative;
+  z-index: 2;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px rgb(59, 39, 26);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.Gallery h4:hover {
+  -webkit-text-fill-color: rgb(59, 39, 26);
+  transform: translateY(-10px);
+  transition: background-image 2s;
+}
+
+.Gallery .featured-box .img-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 70%;
+  background-image: url(../assets/brown-bg.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 2s;
+}
+
+.Gallery .featured-box h4:nth-child(1):hover ~ .img-box {
+  background-image: url(../assets/featured-travel-guam.jpg);
+}
+
+.Gallery .featured-box h4:nth-child(2):hover ~ .img-box {
+  background-image: url(../assets/featured-dictionary.jpg);
+}
