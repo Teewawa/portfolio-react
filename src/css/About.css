@@ -34,7 +34,7 @@
 .About .grid {
   display: grid;
   margin-top: 200px;
-  column-gap: 40px;
+  column-gap: 10px;
 }
 
 .About .grid-2col {
@@ -45,6 +45,8 @@
   width: 400px;
   max-width: 100%;
   border-radius: 3px;
+  filter: sepia(75%) saturate(100%);
+  margin: 0 auto;
   margin-top: 30px;
 }
 
@@ -92,6 +94,9 @@
   color: rgb(38, 25, 17);
   color: rgb(59, 39, 26);
   text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
 }
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
