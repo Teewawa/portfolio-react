@@ -106,7 +106,7 @@ export default function Certificates() {
       </a>
       <section>
         <h3>University of Guam</h3>{" "}
-        <h2>Bachelors of Science in Computer Science</h2>
+        <h2>bachelors of science in computer science</h2>
         <br />
       </section>
     </div>
