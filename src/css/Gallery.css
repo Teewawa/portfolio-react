@@ -10,6 +10,7 @@
   padding: 10px 3%;
   position: relative;
   text-align: left;
+  margin: 20px 70px;
 }
 
 .Gallery a {
@@ -18,7 +19,8 @@
 }
 
 .Gallery h4 {
-  font-size: 70px;
+  font-size: 65px;
+  padding-right: 10px;
   position: relative;
   z-index: 2;
   -webkit-text-fill-color: transparent;
@@ -36,7 +38,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 100%;
   width: 70%;
   background-image: url(../assets/brown-bg.jpg);
   background-size: contain;
