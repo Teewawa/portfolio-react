@@ -27,7 +27,7 @@ export default function About() {
         <div>
           <h4>hello world</h4>
           <h5>I'M ON A SECRET MISSION</h5>
-          <h6>but I decided to take the scenic route</h6>
+          <h6>and decided to take the scenic route</h6>
           <p>
             I grew up in the early 90s, meaning I saw & experienced the
             evolution of today's technology. So it was only a matter of time
@@ -36,18 +36,20 @@ export default function About() {
             small IT Team. Now I write words that will turn into 1's and 0's
             (machine language). When I'm not entering the matrix, you'll
             probably find me cooking something I've never made before, watching
-            movies, anime, history & myths, or playing an old video game with
+            movies, anime, history & wildlife, or playing an old video game with
             considerations on live streaming. I love learning, building, and
-            trying new things because it keeps the sparkle in my eyes & the fire
-            alive.
+            trying new things because it keeps the sparkles in my eyes & the
+            fire alive.
           </p>
         </div>
 
-        <div class>
-          <img
-            src={gameOfTech}
-            alt=""
-          />
+        <div className="about-img-container">
+          <div className="about-img">
+            <img
+              src={gameOfTech}
+              alt=""
+            />
+          </div>
         </div>
       </section>
     </div>
