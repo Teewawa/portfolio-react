@@ -2,6 +2,7 @@ import React from "react";
 import "../css/Featured.css";
 import dictionary from "../assets/dictionary-mockup2.jpg";
 import travelGU from "../assets/travel-guam-mockup.jpg";
+import Gallery from "./Gallery";
 
 export default function Featured() {
   return (
@@ -30,13 +31,19 @@ export default function Featured() {
 
         <section className="grid grid-2col">
           <div className="featured-project">
-            <h4>simple dictionary</h4>
-            <p>REACT | API</p>
+            <h4>dictionary</h4>
+            <p>REACT | JSX | API | RESPONSIVE</p>
             <img
               src={dictionary}
               alt=""
             />
-            <a href="/">Launch Project</a>
+            <a
+              href="https://dictionary-devtiara.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Launch Project
+            </a>
           </div>
 
           <div className="featured-project">
@@ -46,31 +53,18 @@ export default function Featured() {
               src={travelGU}
               alt=""
             />
-            <a href="/">Launch Project</a>
-          </div>
-
-          <div className="featured-project">
-            <h4>simple dictionary</h4>
-            <p>REACT | API</p>
-            <img
-              src={dictionary}
-              alt=""
-            />
-            <a href="/">Launch Project</a>
-          </div>
-
-          <div className="featured-project">
-            <h4>travel to guam </h4>
-            <p>HTML | PURE CSS | RESPONSIVE</p>
-            <img
-              src={travelGU}
-              alt=""
-            />
-            <a href="/">Launch Project</a>
+            <a
+              href="https://travelguam-devtiara.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Launch Project
+            </a>
           </div>
         </section>
         <a href="/">View All Projects</a>
       </section>
+      <Gallery />
     </div>
   );
 }
