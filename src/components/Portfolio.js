@@ -3,7 +3,6 @@ import "../css/Portfolio.css";
 import About from "./About";
 import Featured from "./Featured";
 import Certificates from "./Certificates";
-import Experience from "./Experience";
 
 export default function Portfolio() {
   return (
@@ -12,7 +11,6 @@ export default function Portfolio() {
         <About />
         <Featured />
         <Certificates />
-        <Experience />
       </main>
     </div>
   );
