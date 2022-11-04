@@ -52,6 +52,21 @@
   margin-bottom: 20px;
 }
 
+.Featured .grid {
+  display: grid;
+  column-gap: 10px;
+  padding: 0px 10px;
+}
+
+.Featured .grid-2col {
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.Featured .featured-project {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .Featured h4 {
   color: rgb(191, 175, 160);
   color: rgb(59, 39, 26);
@@ -62,36 +77,34 @@
   margin: 0;
   padding: 0;
   opacity: 0.8;
+  text-align: left;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px rgb(59, 39, 26);
+  cursor: pointer;
+  transition: transform 0.5s;
 }
 
-.Featured p {
-  color: rgb(38, 25, 17);
-  font-size: 20px;
-  font-family: "Quattrocento Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 3px;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  opacity: 0.8;
+.Featured .featured-container h4:hover {
+  -webkit-text-fill-color: rgb(59, 39, 26);
+  transform: translateY(-10px);
 }
 
-.Featured .grid {
-  display: grid;
-  column-gap: 30px;
-  padding: 0px 40px;
+.Featured .img-box {
+  width: 700px;
+  height: 450px;
+  background-image: url(../assets/brown-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 2s;
+  margin: 0 auto;
 }
 
-.Featured .grid-2col {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.Featured .featured-project {
-  max-width: 100%;
-}
-.Featured img {
-  width: 100%;
-  aspect-ratio: 16/9;
-  border-radius: 3px;
+.Featured
+  .featured-container
+  .featured-project
+  h4:nth-child(1):hover
+  ~ .Featured
+  .img-box {
+  background-image: url(../assets/featured-travel-guam.jpg);
 }

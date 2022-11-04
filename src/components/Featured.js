@@ -29,38 +29,12 @@ export default function Featured() {
       >
         <h3>FEATURED WORK</h3>
 
-        <section className="grid grid-2col">
+        <section className="grid grid-2col featured-container">
           <div className="featured-project">
             <h4>dictionary</h4>
-            <p>REACT | JSX | API | RESPONSIVE</p>
-            <img
-              src={dictionary}
-              alt=""
-            />
-            <a
-              href="https://dictionary-devtiara.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Launch Project
-            </a>
+            <h4>travel</h4>
           </div>
-
-          <div className="featured-project">
-            <h4>travel to guam </h4>
-            <p>HTML | PURE CSS | RESPONSIVE</p>
-            <img
-              src={travelGU}
-              alt=""
-            />
-            <a
-              href="https://travelguam-devtiara.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Launch Project
-            </a>
-          </div>
+          <div className="img-box"></div>
         </section>
         <a href="/">View All Projects</a>
       </section>
